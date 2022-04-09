@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 import useAxios from "./useAxios";
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const App = () => {
   const { loading, data, error, refetch } = useAxios({
